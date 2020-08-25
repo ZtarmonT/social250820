@@ -1,0 +1,21 @@
+.dialogs{
+    background: #0cc100;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    display: inline-flex;
+}
+.dialogs_item{
+    width: 49%;
+}
+.dialogs_message{
+    width: 49%;
+    padding: 10px;
+    background: white;
+    color: gray;
+    border-radius: 5px;
+}
+.active{
+    color: yellow;
+    font-weight: bold;
+}

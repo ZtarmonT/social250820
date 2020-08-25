@@ -1,0 +1,25 @@
+.blockuser1{
+    text-align: left;
+}
+.blockuser1 div img{
+    width: 50px;
+}
+.blockuser{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background: #ff450066;
+    color: black;
+    display: inline-flex;
+}
+.nameuser{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.textuser{
+    margin-left: 10px;
+    padding: 10px;
+    background: #f6f9db;
+    border-radius: 5px;
+}

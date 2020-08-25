@@ -1,3 +1,11 @@
+
+.blockout{
+  background: #f6f9db;
+  color: gray;
+  padding: 100px;
+  
+}
+
 .App {
   text-align: center;
 }

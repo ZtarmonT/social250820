@@ -1,0 +1,23 @@
+.navbar{
+    background: #4e4e4e;
+    /* padding: 10px; */
+    color: white;
+}
+.navbar ul{
+    margin: 0px;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-flex;
+}
+.navbar ul li a{
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: yellow;
+}
+.active{
+    color: yellow !important;
+}
