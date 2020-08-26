@@ -4,14 +4,14 @@ import Header from "./components/header/header.js";
 import Navbar from "./components/navbar/navbar.js";
 import Profile from "./components/Profile/profile.js";
 import Dialogs from "./components/dialogs/dialogs.js";
-import {Route, BrowserRouter} from "react-router-dom";
+import {Route} from "react-router-dom";
 
 function App(props) {
 
 
 
   return (
-  <BrowserRouter>
+  
       <div className="App">
         <Header />
         <Navbar />
@@ -21,12 +21,15 @@ function App(props) {
               <Dialogs state={props.appState.messagesPage} /> }/>
 
             <Route path="/profile" render = { () =>
-              <Profile state={props.appState.profilePage} />} />
+              <Profile 
+              profilePage={props.appState.profilePage} 
+              addPost={props.addPost}
+              updateNewPostText = {props.updateNewPostText} />} />
               
           </div>
         
       </div>
-    </BrowserRouter>
+    
 
   );
 }
