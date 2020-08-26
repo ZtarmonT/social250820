@@ -18,10 +18,10 @@ function App(props) {
           <div className = "blockout">
 
             <Route path="/dialogs" render = { () => 
-              <Dialogs state={props.appState.messagePage} /> }/>
+              <Dialogs state={props.appState.messagesPage} /> }/>
 
             <Route path="/profile" render = { () =>
-              <Profile state={props.appState.dialogsPage} />} />
+              <Profile state={props.appState.profilePage} />} />
               
           </div>
         

@@ -4,7 +4,6 @@ import Post from '../MyPost/Post/Post.js'
 
 const Mypost = (props) => {
 
-    
 
     let PostItems = props.postData.map(post => <Post message={post.message} id={post.id} />);
 
