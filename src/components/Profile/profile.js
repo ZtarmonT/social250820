@@ -10,7 +10,7 @@ const Profile = (props) => {
     return(
         <div className = {pcss.navbar}>
             <Profileinfo />
-            <Mypost postData={props.postData} />
+            <Mypost postData={props.state.postData} />
         </div>
     );
         

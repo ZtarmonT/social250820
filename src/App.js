@@ -16,8 +16,13 @@ function App(props) {
         <Header />
         <Navbar />
           <div className = "blockout">
-            <Route path="/dialogs" render = { () => <Dialogs dialogsdata={props.dialogsdata} messagedata={props.messagedata}/>} />
-            <Route path="/profile" render = { () => <Profile postData={props.postData} />} />
+
+            <Route path="/dialogs" render = { () => 
+              <Dialogs state={props.appState.messagePage} /> }/>
+
+            <Route path="/profile" render = { () =>
+              <Profile state={props.appState.dialogsPage} />} />
+              
           </div>
         
       </div>

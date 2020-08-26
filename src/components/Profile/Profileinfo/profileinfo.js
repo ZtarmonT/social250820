@@ -9,8 +9,8 @@ const Profileinfo = () => {
                 <img src="https://www.verasport.pl/pub/skin/default-skin/img/avatar.png" />
             </div>
             <div className = {prfcss.descprofileinfo}>
-                <p>Alex</p>
-                <p>27.04.1994</p>
+                <p>Alex1</p>
+                <p>27.04.19942</p>
                 <p>Men</p>
                 <p>Dnepr</p>
                 
